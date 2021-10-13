@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Brian Sure">
+	<title>Tour Kenya</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<body  > <!--Add background image here-->
+
+	<h1>Tembea Kenya</h1>
+	<nav>
+	   <ul>
+   		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>				
+		<li class="explore">
+			<a href="javascript:void(0)" class="drop">Explore</a>
+			<div class="drop-content">
+				<a href="#Hotels">Hotels</a>
+				<a href="#Wildlife">Parks & Reserves</a>
+				<a href="#Sites">Pre-Historic Sites</a>
+				<a href="#Beaches">Beaches</a>
+				<a href="#geysers">Hot-Springs</a>
+				<a href="#lakes">Lakes</a>
+			</div>
+		</li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">About Us</a></li>
+		<li><a href="#SignIn">Sign-In</a></li>
+	   </ul>	
+		
+	</nav>
+	<main>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Hotels</div>				
+				<img src="images/Hotels.jpg" alt="Hotels">
+			</div>
+		</div>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Adventure</div>
+				<img src="images/Adventure.jpg" alt="Adventure">
+			</div>
+		</div>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Marine</div>
+				<img src="images/Marine.jpg" alt="Marine">
+			</div>
+		</div>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Beach</div>
+				<img src="images/Beach.jpg" alt="Beach">
+			</div>
+		</div>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Wildlife</div>
+				<img src="images/Flamingo.jpg" alt="Flamingo">
+			</div>
+		</div>
+		<div class="slideshow-container">
+			<div class="feature-navigation">
+				<div class="title">Historical Sites</div>
+				<img src="images/Sandy_beach.jpg" alt="Historical Sites">
+			</div>
+		</div>
+		 <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
+                 <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+		 <br>
+		 <div style="text-align:center">
+                   <span class="dot" onclick="currentSlide(1)"></span> 
+                   <span class="dot" onclick="currentSlide(2)"></span> 
+                   <span class="dot" onclick="currentSlide(3)"></span> 
+                 </div>
+ 
+		
+	</main>
+
+</body>
+</html>
