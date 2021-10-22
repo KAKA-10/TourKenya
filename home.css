@@ -1,3 +1,6 @@
+html{
+    background-color:lightblue;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,4 +57,49 @@ h1{
   font-style: italic;
   color: rgb(17, 153, 199);
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#slideshow-container{
+    position: relative;
+    width: 500px;
+    height: 265px;
+    overflow: hidden;
+    box-shadow: 0 0 30 px rgba(0,0, 0,0.3 );
+}#slideshow-container ul{
+    position: relative;
+    list-style :none;
+    height: 100%;
+    width: 1000%;
+    padding:0 ;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+    float: left;
+
+}#slideshow-container ul li img {
+    width: 500px;
+    height: 265px;
+}
+#slideshow-container #prev, #slideshow-container #next {
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50px;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+#slideshow-container #prev{
+    left: 10px;
+}
+#slideshow-container #next {
+    right: 10px;
+}
+#slideshow-container #prev:hover, #slideshow-container #next :hover {
+background-color: rgba(0,0,0, 0.5);
+text-shadow: 0;
 }

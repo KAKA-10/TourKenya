@@ -7,9 +7,10 @@
 	<meta name="Author" content="Brian Sure">
 	<title>Tour Kenya</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body  > <!--Add background image here-->
-
+<body >
+	<header class="header">
 	<h1>Tembea Kenya</h1>
 	<nav>
 	   <ul>
@@ -32,50 +33,29 @@
 	   </ul>	
 		
 	</nav>
+</header>
 	<main>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Hotels</div>				
-				<img src="images/Hotels.jpg" alt="Hotels">
-			</div>
+		
+		<div id="slideshow-container">
+			<ul id="slideWrap">
+				<li><img src='images/Hotels.jpg' alt="Hotels"></li>
+				<li><img src='images/Adventure.jpg' alt="Adventure"></li>
+				<li><img src='images/Beach.jpg' alt="Beaches"></li>
+				<li><img src='images/Marine.jpg' alt="Marine"></li>
+				<li><img src='images/Flamingo.jpg' alt="Flamingo"></li>
+				<li><img src='images/preview.jpg' alt="Pre-Historic"></li>
+			</ul>
 		</div>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Adventure</div>
-				<img src="images/Adventure.jpg" alt="Adventure">
-			</div>
-		</div>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Marine</div>
-				<img src="images/Marine.jpg" alt="Marine">
-			</div>
-		</div>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Beach</div>
-				<img src="images/Beach.jpg" alt="Beach">
-			</div>
-		</div>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Wildlife</div>
-				<img src="images/Flamingo.jpg" alt="Flamingo">
-			</div>
-		</div>
-		<div class="slideshow-container">
-			<div class="feature-navigation">
-				<div class="title">Historical Sites</div>
-				<img src="images/Sandy_beach.jpg" alt="Historical Sites">
-			</div>
-		</div>
-		 <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
-                 <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+		    <a id="prev" onclick="plusSlides(-1)">&#10095;</a>
+            <a id="next" onclick="plusSlides(1)">&#10095;</a> 
 		 <br>
 		 <div style="text-align:center">
                    <span class="dot" onclick="currentSlide(1)"></span> 
                    <span class="dot" onclick="currentSlide(2)"></span> 
-                   <span class="dot" onclick="currentSlide(3)"></span> 
+                   <span class="dot" onclick="currentSlide(3)"></span>
+				   <span class="dot" onclick="currentSlide(3)"></span>
+				   <span class="dot" onclick="currentSlide(3)"></span>
+				   <span class="dot" onclick="currentSlide(3)"></span> 
                  </div>
  
 		
