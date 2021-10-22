@@ -10,6 +10,13 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+  
+  }
+  #logo-name{
+    padding-left: 40px;
+  }
+  .main-nav{
+    padding: 40px;;
   }
   .main-nav ul{
     display: flex;
