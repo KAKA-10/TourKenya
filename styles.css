@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.header{
+    display: flex;
+    position: fixed;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+  }
+  #logo-name{
+    padding-left: 40px;
+  }
+  .main-nav{
+    padding: 40px;;
+  }
+  .main-nav ul{
+    display: flex;
+    list-style: none;
+    font-weight: 800;
+    margin-left: 2rem;
+  }
+  .main-nav a{
+    text-decoration: none;
+    padding: .5rem;
+  }
